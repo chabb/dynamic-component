@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'projected-content';
+  onClick(event) { console.log('In main component', event); }
 }
